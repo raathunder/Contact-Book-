@@ -1,0 +1,39 @@
+$theme-colors: (
+  "primary":#0074d9 ,
+  "danger":#ff4136,
+  "sucess":rgb(242, 248, 247),
+  "secondary":#372eb3,
+  "info":#6c757d,
+);
+
+
+@import "~bootstrap/scss/bootstrap";
+body{
+  padding-top: 5rem;
+  background: #d4dfeb59;
+}
+
+.heartOne {
+  &:hover {
+      color:red;
+  }
+}
+
+/* mouse over link */
+.mystyle{
+  margin-left: 20rem;
+  padding: 3px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #e1e4e8;
+  width:20rem;
+  text-align: center;
+};
+
+.firstl
+ { font-size: 18px; };
+
+ 
+
+
+

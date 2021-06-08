@@ -1,0 +1,10 @@
+export const CREATE_CONTACT = "CREATE_CONTACT";
+export const GET_CONTACT = "GET_CONTACT";
+export const UPDATE_CONTACT = "UPDATE_CONTACT";
+export const DELETE_CONTACT = "DELETE_CONTACT";
+export const ADD_FAVOURITE = "ADD_FAVOURITE";
+export const USER_LOGIN = "CREATE_LOGIN";
+export const USER_LOGOUT = "CREATE_LOGOUT";
+// export const { login, logout } = userReducer.actions;
+export const selectUser = (state) => state.user.user;
+// // export default userSlice.reducer;
