@@ -4,9 +4,6 @@ import { useDispatch } from "react-redux";
 import { userLogin } from "../../actions/actionContact";
 import { useHistory } from "react-router-dom";
 
-//new one
-import auth from "./auth";
-
 const Login = () => {
   let history = useHistory();
   const [name, setName] = useState("");
@@ -67,18 +64,7 @@ const Login = () => {
           </div>
 
           <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-            <button
-              class="btn btn-primary me-md-2"
-              type="submit"
-              btn-lg
-              //below chnges
-              // onClick={() => {
-              //   auth.login(() => {
-              //     history.push("/contact");
-              //   });
-              // }}
-              //
-            >
+            <button class="btn btn-primary me-md-2" type="submit" btn-lg>
               Login
             </button>
           </div>

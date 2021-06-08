@@ -38,12 +38,7 @@ const Navbar = () => {
             type="button"
           >
             Logout
-            <span
-              className="material-icons"
-              //below changes made
-            >
-              logout
-            </span>
+            <span className="material-icons">logout</span>
           </Link>
         </div>
       </nav>

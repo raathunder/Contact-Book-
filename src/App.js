@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/App.scss";
 import Navbar from "./Components/Layouts/Navbar";
 import Contacts from "./Components/contacts/Contacts";
-import { povider, Provider, useSelector } from "react-redux";
+import { Provider, useSelector } from "react-redux";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AddContact from "./Components/contacts/AddContact";
@@ -12,7 +12,6 @@ import FavList from "./Components/Favourite/FavList";
 import Login from "./Components/Authentication/Login";
 
 import { selectUser } from "./Components/Features/userSlice";
-// import { Redirect } from "react-router-dom";
 // import ProtectedRoute from "./Components/Route/ProtectedRoute";
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
               <Route exact path="/contacts/edit/:id" component={EditContact} />
               <Route exact path="/fav" component={FavList} />
               <Route exact path="/login" component={Login} />
-              {/* <Route exact path="/" component={Login} /> */}
               <Route exact path="/" component={Contacts} />
               <Route path="*" component={() => "404 NOT FOUND"} />
 
